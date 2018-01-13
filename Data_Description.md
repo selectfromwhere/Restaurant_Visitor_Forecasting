@@ -15,6 +15,7 @@ air_877f79706adbfb06,2016-01-01 19:00:00,2016-01-01 16:00:00,1
 - air_area_name - エリア
 - latitude - 緯度
 - longitude - 経度
+
 !!! 緯度と経度は、店舗が属する地域の緯度と経度
 ```
 air_store_id,air_genre_name,air_area_name,latitude,longitude
@@ -43,13 +44,14 @@ hpg_c63f6f42e088e50f,2016-01-01 11:00:00,2016-01-01 09:00:00,1
 - hpg_area_name - エリア
 - latitude - 緯度
 - longitude - 経度
+
 !!! 緯度と経度は、店舗が属する地域の緯度と経度
 ```
 hpg_store_id,hpg_genre_name,hpg_area_name,latitude,longitude
 hpg_6622b62385aec8bf,Japanese style,Tōkyō-to Setagaya-ku Taishidō,35.6436746642265,139.668220854814
 ```
 
-# date_info.csv [カレンダー]
+## date_info.csv [カレンダー]
 - calendar_date - 年月日
 - day_of_week - 曜日
 - holiday_flg - 日本の祝日
@@ -58,7 +60,7 @@ calendar_date,day_of_week,holiday_flg
 2016-01-01,Friday,1
 ```
 
-# store_id_relation.csv [id横断データ]
+## store_id_relation.csv [id横断データ]
 - hpg_store_id
 - air_store_id
 ```
@@ -66,7 +68,7 @@ air_store_id,hpg_store_id
 air_63b13c56b7201bd9,hpg_4bc649e72e2a239a
 ```
 
-# sample_submission.csv [Submitサンプル]
+## sample_submission.csv [Submitサンプル]
 ```
 id,visitors
 air_00a91d42b08b08d9_2017-04-23,0
